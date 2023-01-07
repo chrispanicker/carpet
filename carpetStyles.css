@@ -1,14 +1,14 @@
 /*IMPORTING TYPEFACES*/
 @font-face {
   font-family: 'universcondbold';
-  src:  url('../assets/typefaces/universCondBold.woff2') format('woff2'),
-        url('../assets/typefaces/universCondBold.woff') format('woff');
+  src:  url('./assets/typefaces/universCondBold.woff2') format('woff2'),
+        url('./assets/typefaces/universCondBold.woff') format('woff');
 }
 
 @font-face {
   font-family: 'universcondreg';
-  src:  url('../assets/typefaces/universCondReg.woff2') format('woff2'),
-        url('../assets/typefaces/universCondReg.woff') format('woff');
+  src:  url('./assets/typefaces/universCondReg.woff2') format('woff2'),
+        url('./assets/typefaces/universCondReg.woff') format('woff');
 }
 
 *{
