@@ -1,0 +1,103 @@
+@media only screen and (max-width: 600px) {
+	body{
+		min-height: 100vh;
+	}
+
+	#desktopInst{
+		display: none;
+	}
+
+	#introSub{
+		display: none;
+	}
+
+	#name p{
+		display: none;
+	}
+
+	#name{
+		position: fixed;
+		top: 0;
+		background-image: linear-gradient(to top, rgba(0,0,255,0), rgba(0,0,255,0.9), rgba(0,0,255,1));
+		z-index: 100;
+	}
+
+	#main{
+		width: 100vw;
+		top: auto;
+		left: auto;
+	}
+
+	#grandparent{
+		position: absolute;
+		top: 1vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#parent2{
+		position: fixed;
+		background-image: linear-gradient(to bottom, rgba(0,0,255,0), rgba(0,0,255,0.9), rgba(0,0,255,1));
+		top: 75vh;
+		margin: 10vw;
+		padding-bottom: 5vh;
+	}
+
+	#parent1{
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		min-height: 70vh;
+		padding-top: 10vh;
+		padding-bottom: 10vh;
+	}
+
+	#parent1 img, #parent1 video{
+		padding: 1vh;
+	}
+
+	#mobileInst{
+		display: block;
+	}
+
+
+	img{
+		width: 77vw;
+		height: auto;
+	}
+	
+	video{
+		width: 90vw;
+		height: auto;
+		max-height: 20vh;
+	}
+
+	#grid{
+		position: absolute;
+		top: 10vh;
+		display: flex;
+		flex-direction: column;
+		width: 100vw;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		padding-bottom: 10vh;
+	}
+
+	#grid img, #grid video{
+		width: 77vw;
+		height: auto;
+	}
+
+	#gridGrand{
+		padding-bottom: 5vh;
+	}
+
+	#foot{
+		position: fixed;
+		background-image: linear-gradient(to bottom, rgba(0,0,255,0), rgba(0,0,255,0.9), rgba(0,0,255,1));
+		top: 90vh;
+		padding-bottom: 5vh;
+	}
+}

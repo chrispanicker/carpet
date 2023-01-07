@@ -1,0 +1,9 @@
+#grid{
+	align-items: center;
+	margin: 0;
+	padding: 10vw;
+	width: 100vw;
+	height: 70vh;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}

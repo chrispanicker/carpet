@@ -1,0 +1,106 @@
+/*IMPORTING TYPEFACES*/
+@font-face {
+  font-family: 'universcondbold';
+  src:  url('../assets/typefaces/universCondBold.woff2') format('woff2'),
+        url('../assets/typefaces/universCondBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'universcondreg';
+  src:  url('../assets/typefaces/universCondReg.woff2') format('woff2'),
+        url('../assets/typefaces/universCondReg.woff') format('woff');
+}
+
+*{
+  font-family: universcondbold;
+  color: white;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: blue;
+}
+
+#main{
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100vw; 
+}
+
+#intro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#intro h1, p{
+  padding: 0;
+  margin: 0;
+}
+
+.appear{
+  opacity: 100%;
+  transition: opacity .5s ease;
+}
+
+.vanish{
+  opacity: 0%;
+}
+
+#image{
+  transition: height .5s ease;
+}
+
+.hover #image:hover{
+  height: 30vw;
+}
+
+#parent1{
+  display: flex;
+  align-items: center;
+}
+
+#name{
+  display: flex;
+  height: 10vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#name p, h1{
+  padding: 0;
+  margin: 0;
+}
+
+#foot{
+  z-index: 100;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+}
+
+img{
+  width: auto;
+  height: 10vw;
+}
+
+video{
+  width: auto;
+  height: 10vw;
+}
+
+
